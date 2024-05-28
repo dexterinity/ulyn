@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">Good  day! <br> I am Ulyn Mae Balajadia</h1>
+            <button class="btn">
+                Hire Me
+            </button>
+        </div>
+    </section>  
+    
+<div id="hireMeModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Hire Me</h2>
+        <form id="hireMeForm">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name" required>
+            <input type="email" name="email" class="input" placeholder="Enter Your Email" required>
+            <textarea name="message" class="input" rows="5" placeholder="Enter Your Message" required></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+</div>
+
+
+     <section id="about">
+            <h1 class="headings">ABOUT ME</h1>
+            <div id="pic">
+                <img src="hart.jpg" alt="">
+                <div id="intro">
+                    <h2>Ulyn Mae Balajadia</h2> 
+                    <p>Hello! I am Ulyn Mae Balajadia living at San Miguel Barotac Viejo, Iloilo. I was born on march 5, 2002. raise and clothes by Arlene and Unie Balajadia. I graduated my junior high at Barotac Viejo National High School, I took up my Senior High at Barotac Viejo National High school with a strand of Computer System Services. I am currently taking up Bachelor of Science in Information Technology at Iloilo Science and Technology University Barotac Nuevo Campus Jalaud Barotac Nuevo, Iloilo. I have a strong passion for technology and am particularly interested in Creating applications for mobile devices, such as Android or iOS. I enjoy exploring new technologies and solving complex problems. Outside of my studies, I also like Reading Keeping up with tech news, industry trends, and IT-related books. I look forward to connecting with fellow students and professionals to learn and grow in the field of IT. Here are some of my skills, I know how to assemble and disassemble a computer, I have the ability to analyze and solve complex issues and also willingness to learn new technologies.</p>
+           </div>
+       
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="img.1.jpg" alt="">
+            <img src="img.2.jpg" alt="">
+            <img src="img.3.jpg" alt="">
+            <img src="img.4.jpg" alt="">
+            <img src="img.5.jpg" alt="">
+            <img src="img.6.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="first.jpg" alt="">
+                <h1 class="headings">Website Design</h1>
+                <p>Crafting visually stunning and intuitive websites tailored to your unique needs. From user experience (UX) design to user interface (UI) design, we ensure your website not only looks great but also provides a seamless browsing experience.</p>
+
+            </div>
+
+            <div class="box">
+                <img src="second.jpg" alt="">
+                <h1 class="headings">UX/UI <br> Design</h1>
+                <p>Our comprehensive UI/UX services ensure that every digital interaction is seamless and enjoyable. We develop detailed wireframes and interaction prototypes to visualize the user journey and ensure functionality of the deesign.</p>
+            </div>
+
+            
+            <div class="box">
+                <img src="third.jpg" alt="">
+                <h1 class="headings">Digital Marketing
+                </h1>
+                <p>Transforming your media content into polished masterpieces. From video editing to photo retouching, and graphic designing, we use cutting-edge tools and techniques to elevate your multimedia projects to the next level.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form class="form" id="contactForm">
+            <input type="text" name="contact-name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="contact-email" class="input" placeholder="Enter Your Email">
+            <textarea name="contact-message" id="contact-msg" class="input" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <button type="submit" id="contact-send" class="btn">SEND</button>
+        </form>
+    </section>
+    
+    <button id="scrollToTopBtn">Top</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
